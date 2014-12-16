@@ -76,6 +76,7 @@ public class JaxBExampleXSDValidation
         australia.setFoundation( LocalDate.of( 1788, 01, 26 ) );
         australia.setContinent( "Oceania" );
 
+
         try
         {
             marshaller.marshal( australia, System.out );

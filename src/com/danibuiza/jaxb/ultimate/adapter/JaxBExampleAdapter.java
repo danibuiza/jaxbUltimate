@@ -29,6 +29,7 @@ public class JaxBExampleAdapter
             country.setCapital( "Madrid" );
             country.setContinent( "Europe" );
 
+
             country.setFoundation( LocalDate.of( 1469, 10, 19 ) );
 
             /* init jaxb marshaler */

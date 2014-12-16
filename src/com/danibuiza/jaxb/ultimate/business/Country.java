@@ -16,7 +16,7 @@ import com.danibuiza.jaxb.ultimate.adapter.DateAdapter;
  * 
  * @author dgutierrez-diez
  */
-@XmlType( propOrder = { "name", "capital", "foundation", "continent" , "population"} )
+@XmlType( propOrder = { "name", "capital", "foundation", "continent", "population" } )
 @XmlRootElement( name = "Country" )
 public class Country
 {
@@ -27,15 +27,15 @@ public class Country
     LocalDate foundation;
 
     String    continent;
-    
-    int population;
+
+    int       population;
 
     public int getPopulation()
     {
         return population;
     }
 
-    @XmlElement (name = "Country_Population")
+    @XmlElement( name = "Country_Population" )
     public void setPopulation( int population )
     {
         this.population = population;

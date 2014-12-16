@@ -38,6 +38,7 @@ public class JaxBExampleList
             usa.setCapital( "Washington" );
             usa.setContinent( "America" );
 
+
             usa.setFoundation( LocalDate.of( 1776, 7, 4 ) );
 
             Countries countries = new Countries();

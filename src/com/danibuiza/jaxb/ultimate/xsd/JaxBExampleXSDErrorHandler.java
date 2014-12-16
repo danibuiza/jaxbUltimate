@@ -32,6 +32,7 @@ public class JaxBExampleXSDErrorHandler
         spain.setCapital( "Madrid" );
         spain.setFoundation( LocalDate.of( 1469, 10, 19 ) );
 
+
         /**
          * ok
          */
@@ -40,6 +41,7 @@ public class JaxBExampleXSDErrorHandler
         australia.setCapital( "Camberra" );
         australia.setFoundation( LocalDate.of( 1788, 01, 26 ) );
         australia.setContinent( "Oceania" );
+
 
         /**
          * schema is created

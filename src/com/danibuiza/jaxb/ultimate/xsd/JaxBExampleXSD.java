@@ -26,6 +26,9 @@ public class JaxBExampleXSD
         spain.setCapital( "Madrid" );
         spain.setContinent( "Europe" );
         spain.setFoundation( LocalDate.of( 1469, 10, 19 ) );
+        spain.setPopulation( 45000000 );
+
+
 
         SchemaFactory sf = SchemaFactory.newInstance( XMLConstants.W3C_XML_SCHEMA_NS_URI );
         Schema schema = sf.newSchema( new File( "countries.xsd" ) );
